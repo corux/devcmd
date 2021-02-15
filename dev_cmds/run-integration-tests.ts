@@ -23,7 +23,7 @@ import {
 
 const VERDACCIO_CONTAINER_NAME = "devcmd_verdaccio";
 const VERDACCIO_STORAGE_VOLUME_NAME = "devcmd_verdaccio_storage";
-const LOCAL_REGISTRY_URL = "http://0.0.0.0:4873";
+const LOCAL_REGISTRY_URL = "http://127.0.0.1:4873";
 
 const verdaccioConfigDir = path.resolve(repoRoot, "verdaccio");
 const dockerMountDir = path.resolve(repoRoot, "docker-mount");
